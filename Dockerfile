@@ -1,5 +1,5 @@
-# Use an official miniconda runtime as a parent image
-FROM conda/miniconda3
+# Use an official anaconda runtime as a parent image
+FROM continuumio/anaconda3
 
 MAINTAINER Youssef Nashed "youssef.shady@gmail.com"
 
