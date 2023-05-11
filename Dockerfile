@@ -1,5 +1,5 @@
-# Use an official pytorch runtime as a parent image
-FROM pytorch/pytorch:1.12.0-cuda11.3-cudnn8-devel
+# Use an official miniconda runtime as a parent image
+FROM conda/miniconda3
 
 MAINTAINER Youssef Nashed "youssef.shady@gmail.com"
 
