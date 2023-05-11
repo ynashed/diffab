@@ -11,6 +11,10 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN echo creating ${SCRATCH_VOLUME} && mkdir -p ${SCRATCH_VOLUME}
 VOLUME ${SCRATCH_VOLUME}
 
-ADD env.yaml /work/env.yaml
+WORKDIR /work
+ADD . /work
 
-RUN conda env create -n diffab --file /work/env.yaml
+RUN conda env create -n diffab --file env.yaml
+
+RUN chmod +x scripts/run.sh
+ENTRYPOINT ["/work/scripts/run.sh"]
