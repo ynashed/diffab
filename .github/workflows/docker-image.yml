@@ -5,13 +5,13 @@ on:
     branches: [ "main" ]
     paths:
       - 'Dockerfile'
-      - 'requirements.txt'
+      - 'env.yaml'
       - '.github/workflows/docker-image.yml'
   pull_request:
     branches: [ "main" ]
     paths:
       - 'Dockerfile'
-      - 'requirements.txt'
+      - 'env.yaml'
       - '.github/workflows/docker-image.yml'
 
 jobs:
