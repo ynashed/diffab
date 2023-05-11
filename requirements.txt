@@ -6,6 +6,6 @@ tqdm
 easydict
 pyyaml
 biopython==1.78
-abnumber==0.3.0
+abnumber
 mmseqs2
 pdbfixer
