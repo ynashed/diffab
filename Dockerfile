@@ -17,4 +17,4 @@ ADD requirements.txt /work/requirements.txt
 RUN apt-get update && \
     apt-get install -y git wget build-essential libtool autoconf unzip libssl-dev
 
-RUN pip install --no-use-pep517 --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
