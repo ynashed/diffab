@@ -1,1 +1,11 @@
-
+torchvision==0.13.1
+joblib
+python-lmdb
+tqdm
+easydict
+pyyaml
+tensorboard
+biopython==1.78
+abnumber==0.3.0
+mmseqs2
+pdbfixer
