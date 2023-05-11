@@ -13,7 +13,4 @@ VOLUME ${SCRATCH_VOLUME}
 
 ADD env.yaml /work/env.yaml
 
-RUN apt-get update && \
-    apt-get install -y git wget build-essential libtool autoconf unzip libssl-dev
-
 RUN conda env create -n diffab --file /work/env.yaml
