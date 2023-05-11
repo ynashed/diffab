@@ -1,4 +1,4 @@
-torchvision==0.13.1
+torchvision==0.15.2
 joblib
 python-lmdb
 tqdm
