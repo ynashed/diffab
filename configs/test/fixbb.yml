@@ -1,6 +1,6 @@
 mode: single_cdr
 model:
-  checkpoint: ./trained_models/fixbb.pt
+  checkpoint: /lab/lm/diffab/trained_models/fixbb.pt
 
 sampling:
   seed: 2022

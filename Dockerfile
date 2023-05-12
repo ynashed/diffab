@@ -1,7 +1,7 @@
 # Use an official anaconda runtime as a parent image
 FROM continuumio/anaconda3
 
-MAINTAINER Youssef Nashed "youssef.shady@gmail.com"
+LABEL maintainer="Youssef Nashed youssef.shady@gmail.com"
 
 ENV PYTHONUNBUFFERED=1
 

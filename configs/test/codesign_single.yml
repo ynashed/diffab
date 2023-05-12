@@ -1,6 +1,6 @@
 mode: single_cdr
 model:
-  checkpoint: ./trained_models/codesign_single.pt
+  checkpoint: /lab/lm/diffab/trained_models/codesign_single.pt
 
 sampling:
   seed: 2022
