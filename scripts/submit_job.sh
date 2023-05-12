@@ -9,4 +9,4 @@ docker pull ynashed/diffab
 
 # run
 name="diffab_"${USER}_${RANDOM}
-docker run -ti --rm -v /lab/lm:/data --name $name ynashed/diffab tttest
+docker run --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=all --rm -v /lab/lm:/lab/lm --name $name ynashed/diffab ${1} ${2}

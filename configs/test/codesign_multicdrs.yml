@@ -1,6 +1,6 @@
 mode: multiple_cdrs
 model:
-  checkpoint: ./trained_models/codesign_multicdrs.pt
+  checkpoint: /lab/lm/diffab/trained_models/codesign_multicdrs.pt
 
 sampling:
   seed: 2022

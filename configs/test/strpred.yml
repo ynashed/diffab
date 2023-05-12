@@ -1,6 +1,6 @@
 mode: single_cdr
 model:
-  checkpoint: ./trained_models/structure_pred.pt
+  checkpoint: /lab/lm/diffab/trained_models/structure_pred.pt
 
 sampling:
   seed: 2022
